@@ -86,7 +86,7 @@ module.exports =
         if(validate_delete.status == "success")
         { 
             let account_class = new TestClass(user_information);
-            let del = await account_class.delete_test();
+            let del = await account_class.deleteTest();
         }
         else if(validate_delete.status == "error")
         {

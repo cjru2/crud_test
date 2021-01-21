@@ -111,7 +111,7 @@ module.exports = class TestClass
         }
     }
 
-    async delete_test() 
+    async deleteTest() 
     {
         try 
         {

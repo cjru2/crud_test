@@ -32,7 +32,7 @@ module.exports =
     {
         let account_class = new TestClass();
 
-        let getdata = await  account_class.get_data();
+        let getdata = await  account_class.getData();
 
         console.log(getdata);
         res.status(200).send({getdata})

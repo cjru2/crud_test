@@ -67,7 +67,7 @@ module.exports = class TestClass
         return res;
     }
 
-    async get_data() 
+    async getData() 
     {
         try 
         {

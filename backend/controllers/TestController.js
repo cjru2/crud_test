@@ -59,7 +59,7 @@ module.exports =
         {
             if(account_validation.status == "success")
             {
-                await account_class.update_test();
+                await account_class.updateTest();
             }
             else if(account_validation.status == "error")
             {

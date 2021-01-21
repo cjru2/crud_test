@@ -81,7 +81,7 @@ module.exports = class TestClass
         }
     }
 
-    async update_test() 
+    async updateTest() 
     {
         let res = {};
         try 

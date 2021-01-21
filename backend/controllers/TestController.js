@@ -18,7 +18,7 @@ module.exports =
 
         if(account_validation.status == "success")
         {
-            await account_class.create_test();
+            await account_class.createTest();
             res.send(true);
         }
         else if(account_validation.status == "error")

@@ -41,8 +41,8 @@ module.exports = class TestClass
         }
         return res;
     }
-
-    async create_test()
+    //camelcase
+    async createTest()
     {
         let res = {};
         try
